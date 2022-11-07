@@ -7,7 +7,7 @@ USERS = [
     {"name": "Elena", "birthday": datetime(
         year=1996, month=7, day=20).date()},
     {"name": "Natasha", "birthday": datetime(year=1954, month=3, day=3).date()},
-    {"name": "Olga", "birthday": datetime(year=1958, month=11, day=3).date()},
+    {"name": "Olga", "birthday": datetime(year=1958, month=11, day=9).date()},
     {"name": "Luba", "birthday": datetime(year=1998, month=11, day=10).date()},
 ]
 
