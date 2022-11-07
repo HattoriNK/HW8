@@ -13,7 +13,6 @@ USERS = [
 
 
 def close_birthday_users(users, start, end):
-    print(users, start, end)
     now = datetime.today().date()
     result = []
     for user in users:
@@ -26,9 +25,7 @@ def close_birthday_users(users, start, end):
 
 def get_birthdays_per_week(users):
     now = datetime.today().date()
-    print(now)
     current_week_day = now.weekday()
-    print(current_week_day)
     if current_week_day >= 5:
         start_date = now - timedelta(days=(7 - current_week_day))
     elif current_week_day == 0:
